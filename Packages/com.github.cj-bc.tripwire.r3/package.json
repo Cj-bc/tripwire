@@ -1,0 +1,9 @@
+{
+  "name": "com.github.cj-bc.tripwire.r3",
+  "version": "0.0.1",
+  "author": "Cj-bc",
+  "displayName": "Tripwire R3 Extension",
+  "dependencies": {
+      "com.cysharp.r3": "1.3.1",
+  }
+}
