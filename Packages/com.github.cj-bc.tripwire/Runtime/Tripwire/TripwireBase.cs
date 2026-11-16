@@ -7,8 +7,8 @@ namespace Tripwire
     /// Tripwire の基底クラス。1 クラス = 1 つの Tripwire で、
     /// メタデータ（Id / Kind / Description）と検出方法を一緒に持つ。
     ///
-    /// 通常は PollingTripwire（コア）か ReactiveTripwire（R3 拡張）を継承する。
-    /// C# イベントを購読するなど独自の検出をしたい場合は、これを直接継承して
+    /// 通常は EventTripwire（コア）か ReactiveTripwire（R3 拡張）を継承する。
+    /// それ以外の方法で検出したい場合は、これを直接継承して
     /// OnArm で購読し、Set / Fire を呼ぶ。
     /// </summary>
     public abstract class TripwireBase : IDisposable
