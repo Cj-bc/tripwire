@@ -1,0 +1,27 @@
+{
+    "name": "Tripwire.R3.Tests.Editor",
+    "rootNamespace": "Tripwire.R3.Tests",
+    "references": [
+        "GUID:5751e561f7e313549a62a457a3f8f526",
+        "GUID:ca6e70bd99128124aa191b5e0edd626f",
+        "GUID:77221876cc6b8244180b96e320b1bcd4",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "R3.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
